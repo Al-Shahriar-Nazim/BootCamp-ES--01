@@ -20,3 +20,12 @@ function sum1(num1,num2){
 }
 sum1(10)
 //output 10 undefined NaN
+//NaN - Not a Number
+
+//defult parametters
+function sum3(num1=10,num2=10){
+    const number = num1+num2;
+    console.log(number)
+}
+sum3()
+//output : 20
